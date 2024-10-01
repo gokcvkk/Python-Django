@@ -1,0 +1,8 @@
+
+version: '3.8'
+
+services:
+  backend:
+    image: gokkcevk/python-test:latest
+    ports:
+      - 8090:8000
